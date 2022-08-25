@@ -21,6 +21,17 @@ hideStreamlitStyle = """
 """
 st.markdown(hideStreamlitStyle, unsafe_allow_html=True)
 
+page_bg_img = '''
+<style>
+body {
+background-image: url("https://images.unsplash.com/photo-1542281286-9e0a16bb7366");
+background-size: cover;
+}
+</style>
+'''
+
+st.markdown(page_bg_img, unsafe_allow_html=True)
+
 with st.sidebar:
 
     st.markdown('''
@@ -53,8 +64,8 @@ contents = file_.read()
 data_url = base64.b64encode(contents).decode("utf-8")
 file_.close()
 st.markdown(
-#     f'<center><img src="data:image/gif;base64,{data_url}" alt="harmLogo" width=300 height=125></center>',
-    "<center><iframe src='https://my.spline.design/untitled-679153e3854b48a774720ff3e327edbc/' frameborder='0' width='100%' height='100%'></iframe></center>",
+    f'<center><img src="data:image/gif;base64,{data_url}" alt="harmLogo" width=300 height=125></center>',
+#     "<center><iframe src='https://my.spline.design/untitled-679153e3854b48a774720ff3e327edbc/' frameborder='0' width='100%' height='100%'></iframe></center>",
     unsafe_allow_html=True,
 )
 
