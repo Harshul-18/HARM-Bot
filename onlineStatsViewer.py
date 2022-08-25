@@ -16,7 +16,7 @@ import chime
 hideStreamlitStyle = """
     <style>
     #MainMenu {visibility: hidden;}
-    footer {visibility: hidden;}
+    footer {visibility: hidden; color: black;}
     </style>
 """
 st.markdown(hideStreamlitStyle, unsafe_allow_html=True)
