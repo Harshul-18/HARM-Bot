@@ -44,24 +44,38 @@ with st.sidebar:
 
     if st.button("Harshul Nanda"):
         js = "window.open('https://www.linkedin.com/in/harshulnanda/')"
-#         js = "window.location.href = 'https://www.linkedin.com/in/harshulnanda/'"
         html = '<img src onerror="{}">'.format(js)
         div = Div(text=html)
         st.bokeh_chart(div)
     if st.button("Abhijeet Saroha"):
-        webbrowser.open_new_tab("https://www.linkedin.com/in/abhijeet-saroha-a19031229/")
+        js = "window.open('https://www.linkedin.com/in/abhijeet-saroha-a19031229/')"
+        html = '<img src onerror="{}">'.format(js)
+        div = Div(text=html)
+        st.bokeh_chart(div)
     if st.button("Rishabh Sagar"):
-        webbrowser.open_new_tab("https://www.linkedin.com/in/rishabh-sagar-1b0b74229/")
+        js = "window.open('https://www.linkedin.com/in/rishabh-sagar-1b0b74229/')"
+        html = '<img src onerror="{}">'.format(js)
+        div = Div(text=html)
+        st.bokeh_chart(div)
     if st.button("Mayank Arora"):
-        webbrowser.open_new_tab("https://www.linkedin.com/in/mayank-arora-24713322a/")
+        js = "window.open('https://www.linkedin.com/in/mayank-arora-24713322a/')"
+        html = '<img src onerror="{}">'.format(js)
+        div = Div(text=html)
+        st.bokeh_chart(div)
 
 
     st.markdown("### Contact us ")
 
     if st.button("GitHub"):
-        webbrowser.open_new_tab("https://github.com/Harshul-18")
+        js = "window.open('https://harshul-18.github.io/Harshul-Site/')"
+        html = '<img src onerror="{}">'.format(js)
+        div = Div(text=html)
+        st.bokeh_chart(div)
     if st.button("Linked In"):
-        webbrowser.open_new_tab("https://www.linkedin.com/company/82157293/admin/")
+        js = "window.open('https://www.linkedin.com/company/82157293/admin/')"
+        html = '<img src onerror="{}">'.format(js)
+        div = Div(text=html)
+        st.bokeh_chart(div)
 
 
 file_ = open("harmLogo.gif", "rb")
