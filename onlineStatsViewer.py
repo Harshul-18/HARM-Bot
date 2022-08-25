@@ -8,10 +8,10 @@ from youtubeVideoStats import createDataset
 import webbrowser
 import chime
 
-if st.theme() == 'Dark':
-    file_ = open("/Users/harshulnanda/Documents/HARM-ML_challenge/harmLogoDark.gif", "rb")
-else:
-    file_ = open("/Users/harshulnanda/Documents/HARM-ML_challenge/harmLogo.gif", "rb")
+# if st.theme() == 'Dark':
+#     file_ = open("/Users/harshulnanda/Documents/HARM-ML_challenge/harmLogoDark.gif", "rb")
+# else:
+#     file_ = open("/Users/harshulnanda/Documents/HARM-ML_challenge/harmLogo.gif", "rb")
 
 hideStreamlitStyle = """
     <style>
