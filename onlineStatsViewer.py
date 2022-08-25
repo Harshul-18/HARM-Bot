@@ -16,7 +16,7 @@ import chime
 hideStreamlitStyle = """
     <style>
     #MainMenu {visibility: hidden;}
-    footer {visibility: hidden; color: white; background-color: transparent;}
+    footer {visibility: hidden;}
     </style>
 """
 st.markdown(hideStreamlitStyle, unsafe_allow_html=True)
@@ -159,7 +159,7 @@ if youtubeVideoUrl:
 
 footer="""<style>
 a:link , a:visited{
-color: black;
+color: white;
 font-weight: bold;
 background-color: transparent;
 text-decoration: none;
@@ -176,8 +176,8 @@ position: fixed;
 left: 0;
 bottom: 0;
 width: 100%;
-background-color: white;
-color: black;
+background-color: transparent;
+color: white;
 text-align: center;
 }
 
