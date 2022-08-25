@@ -25,7 +25,7 @@ st.markdown(
      f"""
      <style>
      .stApp {{
-         background: url("https://i.postimg.cc/XYJpjnxn/Frame-18.png");
+         background: url("https://i.postimg.cc/hPfP72WB/Frame-18.png");
          background-size: cover
      }}
      </style>
