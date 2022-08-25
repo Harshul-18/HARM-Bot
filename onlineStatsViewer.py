@@ -25,7 +25,7 @@ st.markdown(
      f"""
      <style>
      .stApp {{
-         background: url("https://cdn.pixabay.com/photo/2020/06/19/22/33/wormhole-5319067_960_720.jpg");
+         background: url("https://my.spline.design/untitled-679153e3854b48a774720ff3e327edbc/");
          background-size: cover
      }}
      </style>
