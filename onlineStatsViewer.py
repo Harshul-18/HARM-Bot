@@ -44,7 +44,7 @@ with st.sidebar:
 
     if st.button("Harshul Nanda"):
         js = "window.open('https://www.linkedin.com/in/harshulnanda/')"
-        js = "window.location.href = 'https://www.linkedin.com/in/harshulnanda/'"
+#         js = "window.location.href = 'https://www.linkedin.com/in/harshulnanda/'"
         html = '<img src onerror="{}">'.format(js)
         div = Div(text=html)
         st.bokeh_chart(div)
