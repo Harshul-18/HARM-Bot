@@ -25,7 +25,7 @@ st.markdown(
      f"""
      <style>
      .stApp {{
-         background: url("https://my.spline.design/untitled-679153e3854b48a774720ff3e327edbc/");
+         background: url("https://i.postimg.cc/Vsj7Rgzx/Screenshot-2022-08-24-at-10-44-07-PM.png");
          background-size: cover
      }}
      </style>
