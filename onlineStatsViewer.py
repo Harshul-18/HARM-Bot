@@ -54,7 +54,7 @@ data_url = base64.b64encode(contents).decode("utf-8")
 file_.close()
 st.markdown(
 #     f'<center><img src="data:image/gif;base64,{data_url}" alt="harmLogo" width=300 height=125></center>',
-    '<center><iframe src='https://my.spline.design/untitled-679153e3854b48a774720ff3e327edbc/' frameborder='0' width='100%' height='100%'></iframe></center>',
+    "<center><iframe src='https://my.spline.design/untitled-679153e3854b48a774720ff3e327edbc/' frameborder='0' width='100%' height='100%'></iframe></center>",
     unsafe_allow_html=True,
 )
 
