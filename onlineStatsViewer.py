@@ -6,6 +6,7 @@ import pandas as pd
 from videoProcessor import processingTheVid
 from youtubeVideoStats import createDataset
 import webbrowser
+from bokeh.models.widgets import Div
 import chime
 
 # if st.theme() == 'Dark':
@@ -42,7 +43,10 @@ with st.sidebar:
     st.markdown("### Team Members ")
 
     if st.button("Harshul Nanda"):
-        webbrowser.open_new_tab("https://www.linkedin.com/in/harshulnanda/")
+        js = "window.open('https://www.linkedin.com/in/harshulnanda/')"
+        html = '<img src onerror="{}">'.format(js)
+        div = Div(text=html)
+        st.bokeh_chart(div)
     if st.button("Abhijeet Saroha"):
         webbrowser.open_new_tab("https://www.linkedin.com/in/abhijeet-saroha-a19031229/")
     if st.button("Rishabh Sagar"):
