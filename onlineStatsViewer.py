@@ -22,17 +22,15 @@ hideStreamlitStyle = """
 st.markdown(hideStreamlitStyle, unsafe_allow_html=True)
 
 st.markdown(
-    """
-    <style>
-    .reportview-container {
-        background: url("https://images.app.goo.gl/LFCobouKtT7oZ7Qv7")
-    }
-   .sidebar .sidebar-content {
-        background: url("https://images.app.goo.gl/LFCobouKtT7oZ7Qv7")
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
+     f"""
+     <style>
+     .stApp {{
+         background: url("https://cdn.pixabay.com/photo/2020/06/19/22/33/wormhole-5319067_960_720.jpg");
+         background-size: cover
+     }}
+     </style>
+     """,
+     unsafe_allow_html=True
 )
 
 with st.sidebar:
