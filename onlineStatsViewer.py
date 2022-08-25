@@ -67,7 +67,7 @@ with st.sidebar:
     st.markdown("### Contact us ")
 
     if st.button("GitHub"):
-        js = "window.open('https://harshul-18.github.io/Harshul-Site/')"
+        js = "window.open('https://github.com/Harshul-18')"
         html = '<img src onerror="{}">'.format(js)
         div = Div(text=html)
         st.bokeh_chart(div)
@@ -202,7 +202,7 @@ text-align: center;
 
 </style>
 <div class="footer">
-<p>Copyright © <a href="https://www.linkedin.com/company/82157293/admin/">HARM</a>, Designed by <a href="https://github.com/Harshul-18">Harshul</a>.</p>
+<p>Copyright © <a href="https://www.linkedin.com/company/82157293/admin/">HARM</a>, Designed by <a href="https://harshul-18.github.io/Harshul-Site/">Harshul</a>.</p>
 </div>
 """
 
