@@ -8,6 +8,7 @@ from youtubeVideoStats import createDataset
 import webbrowser
 from bokeh.models.widgets import Div
 import chime
+from categoryPredictor import predictCategoryFor
 
 # if st.theme() == 'Dark':
 #     file_ = open("/Users/harshulnanda/Documents/HARM-ML_challenge/harmLogoDark.gif", "rb")
@@ -100,6 +101,12 @@ option = st.selectbox(
 )
 
 if youtubeVideoUrl:
+
+    st.markdown(
+        f"<h3>{predictCategoryFor(url=youtubeVideoUrl)}</h3>",
+        unsafe_allow_html=True
+    )
+
     with st.expander("Download"): 
 
         if (youtubeVideoUrl is None or len(youtubeVideoUrl) == 0):
