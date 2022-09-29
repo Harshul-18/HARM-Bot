@@ -102,10 +102,10 @@ option = st.selectbox(
 
 if youtubeVideoUrl:
 
-    st.markdown(
-        f"<h3>{predictCategoryFor(url=youtubeVideoUrl)}</h3>",
-        unsafe_allow_html=True
-    )
+#     st.markdown(
+#         f"<h3>{predictCategoryFor(url=youtubeVideoUrl)}</h3>",
+#         unsafe_allow_html=True
+#     )
 
     with st.expander("Download"): 
 
