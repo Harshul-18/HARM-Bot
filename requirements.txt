@@ -16,5 +16,3 @@ numpy==1.23.3
 keras==2.10.0
 tensorflow==2.10.0
 pytube==12.1.0
-pytube3==9.6.4
-pytube4==0.1.1
